@@ -1,6 +1,6 @@
 def fibonacci(n)
   fib = [0, 1]
-  (2...n).each do |i|
+  (2..n).each do |i|
     fib << fib[i - 1] + fib[i - 2]
   end
   fib
